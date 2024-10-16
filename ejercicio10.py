@@ -14,10 +14,10 @@ ctrabajofinal = float(input("Ingrese la calificación del trabajo final: "))
 
 # Calculamos el promedio de las calificaciones parciales,los porcentajes y la calificación final
 promedioparciales = (cparcial1 + cparcial2 + cparcial3) / 3
-porcentaje_parciales = promedioparciales * 0.55
+porcentajeparciales = promedioparciales * 0.55
 porcentajexamen = cexamenfinal * 0.30
 porcentajetrabajo = ctrabajofinal * 0.15
-calificacion_final = porcentaje_parciales + porcentajexamen + porcentajetrabajo
+calificacionfinal = porcentajeparciales + porcentajexamen + porcentajetrabajo
 
 # Imprimimos el resultado
-print("La calificación final del alumno es:", calificacion_final)
+print("La calificación final del alumno es:", calificacionfinal)
